@@ -41,7 +41,7 @@ public class App {
         System.out.println("");
 
         int damage = enemyPower * 2;
-        health -= damage;
+        health -= damage; 
         System.out.println("You take " + damage + " damage. Health: " + health);
 
         int potion = 15;
